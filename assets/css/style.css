@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel0517 Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <style>
+        /* Adicionado para responsividade */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre-mim">
+            <h1>Sobre Mim</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </section>
+        <section id="projetos">
+            <h1>Projetos</h1>
+            <ul>
+                <li><a href="#projeto-1">Projeto 1</a></li>
+                <li><a href="#projeto-2">Projeto 2</a></li>
+                <li><a href="#projeto-3">Projeto 3</a></li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <form>
+                <input type="text" placeholder="Nome:">
+                <input type="email" placeholder="E-mail:">
+                <textarea placeholder="Mensagem:"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Daniel0517. Todos os direitos reservados.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+<script>
+    // Removendo console.log de debug
+    //console.log('Código final corrigido');
+</script>
