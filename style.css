@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel0517</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+</head>
+<body>
+    <header>
+        <nav class="glassmorphism-nav">
+            <ul>
+                <li><a href="#hero">Hero</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contacto">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h1>Daniel0517 - Desenvolvedor Front-end</h1>
+            <p>Desenvolvedor front-end com experiência em HTML, CSS e JavaScript.</p>
+            <button class="btn">Conheça mais</button>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="grid">
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1583833333-9f8a4c1e7b45?w=200&q=80" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1583833334-cf8a4c1e7b45?w=200&q=80" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container">
+            <h2>Contato</h2>
+            <ul>
+                <li><a href="mailto:daniel0517@gmail.com">daniel0517@gmail.com</a></li>
+                <li><a href="https://wa.me/+5511999999999">WhatsApp (+55 11 99 999 999)</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
